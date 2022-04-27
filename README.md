@@ -1,4 +1,4 @@
-# repositório do Desafio de Projetos do Bootcamp Spread Fullstack Developer
+# Repositório do Desafio de Projetos do Bootcamp Spread Fullstack Developer
 Repositório criado para Desafios de Projetos dos Cursos do Bootcamp
 
 
