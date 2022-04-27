@@ -1,0 +1,21 @@
+#Comando básico para poder incluir uma pasta ao github
+
+1° git clone (link do repositório)
+
+esse comando vai incluir a pasta do repositorio a sua máquina
+caso deseje enviar um arquivo de sua maquina para o github segue os paçoes, vamos usar o exemplo da pasta que foi clocana acima
+
+1° cd (nome da pasta que foi clonada para podermos entrar nela, ela vai esta com o nome e com main no final dela)
+
+2° git add . (esse comando vamos dar a entender para o git bash que temos interesse em enviar o arquivo para o GitHub
+
+3° git commit -m "string" (o commit é o comando que diz ao git bash que queremos comitar esse arquivo no GitHub, e o -m é para inserirmos uma string, 
+por isso temos uma string logo em seguida, ela vai dar uam descrição para nossa pasta, importante que seja clara)
+
+4° a´te agora fizemos um commit local , na maquina, para mandarmos para o GitHub o comando é push, fica:
+
+git push origin main
+
+esse comando faz que todos os commit locais sejam enviados para o GitHub
+
+lembrandio que a qualquer momento apodemos usar o comando git status para entender o status na hora 
