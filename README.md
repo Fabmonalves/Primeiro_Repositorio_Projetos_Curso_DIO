@@ -10,3 +10,6 @@ Repositório criado para Desafios de Projetos dos Cursos do Bootcamp
 ## Link da Escola DIO
 [Sintaxe Basica Markdown](https://web.dio.me/browse)
 
+## Sobre os arquivos
+### A pasta Git/GitHub traz comandos básicos 
+
