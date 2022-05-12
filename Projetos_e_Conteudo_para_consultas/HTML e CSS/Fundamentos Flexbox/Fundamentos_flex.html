@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos_flex</title>
+    <style>
+        .flex-container {
+            max-width: 400px;
+            display: flex;
+            border: 1px solid black;
+        }
+        .item {
+            font-size: 24px;
+            text-align: center;
+            background-color: orangered;
+            color: white;
+            margin: 5px;
+        }
+        .largura {
+            width: 200px;
+           /*  min-width: 250px; */
+        }
+        .flex-1 {
+            flex: 1; /* grow = 1, shrink = 1, basis = 0*/
+        }
+        .flex-2 {
+            flex: 2; /* grow = 2, shrink = 1, basis = 0*/
+        }
+    </style>
+</head>
+<body>
+
+    <p>flex-1</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BBBBB</div>
+        <div class="item flex-1">CCC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EEE</div>
+    </div>
+    
+    <p>flex-mix</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-2">BBBBB</div>
+        <div class="item flex-2">CCC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EEE</div>
+    </div>
+
+    <p>width ignorado -> basis = 0</p>
+    <div class="flex-container">
+        <div class="item flex-1">A</div>
+        <div class="item flex-1">BBBBB</div>
+        <div class="item flex-1">CCC</div>
+        <div class="item flex-1">D</div>
+        <div class="item flex-1">EEE</div>
+    </div>
+</body>
+</html>
