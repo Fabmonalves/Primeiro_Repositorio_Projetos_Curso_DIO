@@ -1,0 +1,36 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: rgba(185, 185, 185, 0.527);
+    color: rgb(109, 1, 1);
+
+}
+
+header {
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa_num input {
+    border-radius: 5px;
+}
+
+.Number_layout {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(109, 1, 1);
+    background-color: rgba(0, 0, 0, 0.774);
+    color: rgb(255, 255, 255);
+}
